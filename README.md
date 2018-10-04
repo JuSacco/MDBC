@@ -2,9 +2,9 @@
 A project that allow to connect multiple databases from a switch server who interacts with a client
 
 # Compilation commands
-  gcc sql_conn.c -Wall -g -c `mysql_config --cflags --libs` // For compile a object
+  gcc mysql_conn.c -Wall -g -c `mysql_config --cflags --libs` // For compile a object
 	
-  gcc -o test switchServer.c mySql_conn.o `mysql_config --cflags --libs` // Compile a switchserver + sql obj
+  gcc -o test switchServer.c mysql_conn.o `mysql_config --cflags --libs` // Compile a switchserver + sql obj
 
 # Version
 	# Version 0.0.1
