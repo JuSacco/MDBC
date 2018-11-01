@@ -10,7 +10,7 @@ A project that allow to connect multiple databases from a switch server who inte
 	# Version 0.0.1
 		- SWServer can do a query to MySQL
 
-		- SWServer reads a config file to configure some parameters to do connection
+		- SWServer reads a config file for configure some parameters to do connection
 
 
 # TO-DO
