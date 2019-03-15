@@ -5,9 +5,12 @@ A project that allow to connect multiple databases from a switch server who inte
   gcc mainServer.c -o switchServer posgresql.o mysql_conn.o firebird.o `mysql_config --cflags --libs` -lpq -lxml2 -lfb // For compile a object
   
   //Compile modules	
-  • mySQL: gcc mysql_conn.c -Wall -g -c `mysql_config --cflags --libs`
-  • postgreSQL: gcc posgresql.c -Wall -g -c -lpq -I/usr/include/postgresql/
-  • firebird: gcc firebird.c -Wall -g -c -I /usr/include/firebird/ -lfb
+  
+  mySQL: gcc mysql_conn.c -Wall -g -c `mysql_config --cflags --libs`
+  
+  postgreSQL: gcc posgresql.c -Wall -g -c -lpq -I/usr/include/postgresql/
+  
+  firebird: gcc firebird.c -Wall -g -c -I /usr/include/firebird/ -lfb
   
 # Version
 	# Version 0.1
