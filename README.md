@@ -28,7 +28,7 @@ A project that allow to connect multiple databases from a switch server who inte
 		PostgreSQL 11.1.1 with pgAdmin 4 running on Debian
 		Firebird 3.0 running on Debian
 	Switch server: running on Debian 
-	
+![Architecture](https://github.com/JuSacco/MDBC/blob/master/libxml/arch.png)
 
 # TO-DO
 
